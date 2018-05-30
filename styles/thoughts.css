@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'IBM Plex Mono', monospace;
+	margin: 0;
+	background-color: #f9ede0;
+}
+
+footer {
+
+	text-align: center;
+}
+
+footer p {
+	color: black;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	font-size: 0.85em;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #b1744a;
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.navigation ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 300px;
+	display: none;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	position: relative;
+	float: right;
+	display: inline-block;
+	flex-direction: end;
+}
+
+.mobile-menu {
+	font-family: 'IBM Plex Mono', monospace;
+	cursor: pointer;
+	font-size: 0.9em;
+	margin-left: 50%;
+}
+
+.name-logo {
+	margin-left: 37px;
+}
+
+.think {
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.think p {
+	font-size: 0.8em;
+}
