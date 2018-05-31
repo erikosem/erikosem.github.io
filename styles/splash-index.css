@@ -33,7 +33,7 @@ footer p {
 	right: 0;
 	position: fixed;
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 0.9em;
 }
 
 img {
@@ -46,7 +46,7 @@ img {
 }
 
 .content {
-	padding-top: 270px;
+	padding-top: 70px;
 }
 
 .name {
@@ -68,12 +68,12 @@ img {
 }
 
 .first-name {
-	font-size: 2.1em;
+	font-size: 1.5em;
 }
 
 .last-name {
 	margin-top: 40%;
-	font-size: 2.1em;
+	font-size: 1.5em;
 }
 
 .enter {
@@ -81,15 +81,15 @@ img {
 }
 
 .enter p {
-	margin-top: 200px;
+	margin-top: 30px;
 }
 
 .enter a {
 	border: #b1744a 1px solid;
-	padding: 20px 30px 20px 30px;
+	padding: 10px 20px 10px 20px;
 	color: white;
 	text-decoration: none;
-	font-size: 2.5em;
+	font-size: 1.1em;
 }
 
 a:hover {
