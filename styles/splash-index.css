@@ -33,43 +33,63 @@ footer p {
 	right: 0;
 	position: fixed;
 	text-align: center;
-	font-size: 0.85em;
+	font-size: 1.1em;
 }
 
 img {
 	width: 100%;
 }
 
+.wrapper {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.content {
+	padding-top: 270px;
+}
+
 .name {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 43%;
+	width: 53%;
 	margin: 0 auto;
-	margin-top: 20px;
+	position: relative;
+	top: -50%;
+	/*margin-top: 500px;*/
+	/*margin-top: 20px;*/
 }
 
 .name p {
-	font-size: 1.7em;
 	padding: 0;
 	margin: 15px;
 	color: white;
 }
 
+.first-name {
+	font-size: 2.1em;
+}
+
 .last-name {
 	margin-top: 40%;
+	font-size: 2.1em;
 }
 
 .enter {
 	text-align: center;
-	margin-top: 50px;
+}
+
+.enter p {
+	margin-top: 200px;
 }
 
 .enter a {
 	border: #b1744a 1px solid;
-	padding: 10px 20px 10px 20px;
+	padding: 20px 30px 20px 30px;
 	color: white;
 	text-decoration: none;
+	font-size: 2.5em;
 }
 
 a:hover {
@@ -80,31 +100,42 @@ a:hover {
 
 @media screen and (min-width: 500px){
 
+
+	.content {
+	padding-top: 110px;
+	}
+
 	.name {
 		width: 30%;
 
 	}
+
+	.enter p {
+		margin: 0;
+		padding-top: 50px;
+	}
+
 
 }
 
 @media screen and (min-width: 900px){
 
 	.name {
-		width: 25%;
+		width: 53%;
 
 	}
 
 	.name p {
-		font-size: 2.1em;
+		font-size: 1.6em;
 	}
 
-	.first-name {
+/*	.first-name {
 		margin-top: 10%;
 	}
 
 	.last-name {
 	margin-top: 28%;
-	}
+	}*/
 
 	.enter {
 		margin-top: 0;
