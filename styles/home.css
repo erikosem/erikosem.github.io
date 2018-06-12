@@ -171,12 +171,20 @@ button {
 
 /*media queries*/
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 370px){
+
+	button {
+		margin-left: 36%;
+	}
  
-/*.name-logo {
-	margin-left: 44px;
-}
-*/
+
+ }
+
+ @media screen and (min-width: 400px){
+
+ 	button {
+ 		margin-left: 39%;
+ 	}
  }
 
  @media screen and (min-width: 700px){
