@@ -28,7 +28,7 @@ footer p {
 	right: 0;
 	position: absolute;*/
 	text-align: center;
-	font-size: 0.85em;
+	font-size: 1.3em;
 }
 
 img {
@@ -133,10 +133,17 @@ button {
 	margin-top: 230px;
 	position: absolute;
 	font-size: 1.4em;
+	-webkit-animation: fadein 2.5s;
+  	-moz-animation: fadein 2.5s;
 	/*background-color: #f9ede0;*/
 	/*color: aliceblue;*/
 	/*color: #d2cdc6;*/
 	/*color: #a86404;*/
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .intro p {
