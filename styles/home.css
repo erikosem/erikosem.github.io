@@ -56,7 +56,7 @@ h3 {
 /*text-align:center; */
 	border-bottom: 1px solid #000; 
 	line-height:0.1em; 
-	margin:170px 0 50px; 
+	margin: 200px 0 50px; 
 	margin-left: 7%;
 } 
 
@@ -119,18 +119,20 @@ button {
 .mobile-menu {
 	font-family: 'IBM Plex Mono', monospace;
 	cursor: pointer;
-	font-size: 0.9em;
-	margin-left: 50%;
+	font-size: 1.3em;
+	margin-left: 58%;
 }
 
 .name-logo {
-	margin-left: 37px;
+	margin-left: 100px;
+	font-size: 1.8em;
 }
 
 .intro {
-	margin-left: 40px;
-	margin-top: 200px;
+	margin-left: 80px;
+	margin-top: 230px;
 	position: absolute;
+	font-size: 1.4em;
 	/*background-color: #f9ede0;*/
 	/*color: aliceblue;*/
 	/*color: #d2cdc6;*/
@@ -138,9 +140,11 @@ button {
 }
 
 .intro p {
-	font-size: 0.8em;
+	font-size: 1.5em;
+	/*color: pink;*/
+	/*color: #a86404;*/
 	color: #ecd0b3;
-	text-shadow: black 0.5px 0.5px;
+	text-shadow: black 1px 1px;
 
 }
 
