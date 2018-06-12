@@ -17,7 +17,7 @@ body {
 }
 
 footer {
-
+	margin-top: 30px;
 	text-align: center;
 }
 
@@ -38,6 +38,48 @@ img {
 	/*margin-right: 30px;*/
 	margin: 0 auto;
 }
+
+/*temporary insta trial*/
+
+/*.break {
+	display: flex;
+	flex-direction: row;
+	border-top: black 1px solid;
+}
+
+.break span {
+
+}*/
+
+h3 { 
+	width: 50%; 
+/*text-align:center; */
+	border-bottom: 1px solid #000; 
+	line-height:0.1em; 
+	margin:170px 0 50px; 
+	margin-left: 7%;
+} 
+
+h3 span { 
+	background: #f9ede0;
+	padding:0 10px; 
+}
+
+.insta img {
+	max-width: 180px;
+	margin: 0 auto;
+}
+
+.insta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+
+}
+
+
+
+/*end of temp insta*/
 
 a {
 	text-decoration: none;
@@ -102,7 +144,7 @@ button {
 
 }
 
-.japanese-intro {
+/*.japanese-intro {
 	font-size: 1.5em;
 	float: right;
 	position: absolute;
@@ -113,9 +155,33 @@ button {
 
 .japanese-intro p {
 	margin: 2px 0 10px 0;
-}
+}*/
 
+/*media queries*/
 
+@media screen and (min-width: 380px){
+ 
+
+ }
+
+ @media screen and (min-width: 700px){
+ 
+ img {
+ 	width: 600px;
+ }
+
+ footer {
+ 	margin-top: 80px;
+ }
+
+ }
+
+ @media screen and (min-width: 1000px){
+
+ 
+ }
+
+ }
 
 
 

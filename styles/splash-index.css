@@ -15,7 +15,8 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	/*min-height: 100vh;*/
-	width: 100%;
+/*	width: 100%;
+	height: 100%;*/
 	margin: 0;
 }
 
@@ -28,12 +29,13 @@ footer {
 
 footer p {
 	color: white;
-	bottom: 0;
+	/*bottom: 0;
 	left: 0;
 	right: 0;
 	position: fixed;
-	text-align: center;
+	text-align: center;*/
 	font-size: 0.9em;
+	/*margin-bottom: 30px;*/
 }
 
 img {
@@ -41,12 +43,15 @@ img {
 }
 
 .wrapper {
-	width: 100%;
-	min-height: 100vh;
 }
 
 .content {
-	padding-top: 70px;
+	/*display: block;*/
+	margin: 0 auto;
+	vertical-align: middle;
+	position: relative;
+	/*margin-top: 20%;*/
+
 }
 
 .name {
@@ -56,9 +61,6 @@ img {
 	width: 53%;
 	margin: 0 auto;
 	position: relative;
-	top: -50%;
-	/*margin-top: 500px;*/
-	/*margin-top: 20px;*/
 }
 
 .name p {
@@ -68,16 +70,18 @@ img {
 }
 
 .first-name {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .last-name {
-	margin-top: 40%;
-	font-size: 1.5em;
+	margin-top: 20%;
+	font-size: 1.2em;
 }
 
 .enter {
 	text-align: center;
+	/*margin-top: 150px;*/
+	/*margin-top: 300px;*/
 }
 
 .enter p {
@@ -89,7 +93,7 @@ img {
 	padding: 10px 20px 10px 20px;
 	color: white;
 	text-decoration: none;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 a:hover {
@@ -97,65 +101,4 @@ a:hover {
 }
 
 /*media queries here*/
-
-@media screen and (min-width: 500px){
-
-
-	.content {
-	padding-top: 110px;
-	}
-
-	.name {
-		width: 30%;
-
-	}
-
-	.enter p {
-		margin: 0;
-		padding-top: 50px;
-	}
-
-
-}
-
-@media screen and (min-width: 900px){
-
-	.name {
-		width: 53%;
-
-	}
-
-	.name p {
-		font-size: 1.6em;
-	}
-
-/*	.first-name {
-		margin-top: 10%;
-	}
-
-	.last-name {
-	margin-top: 28%;
-	}*/
-
-	.enter {
-		margin-top: 0;
-	}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
