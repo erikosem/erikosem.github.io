@@ -2,8 +2,8 @@
 
 html {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+/*  padding: 0;
+  margin: 0;*/
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -101,4 +101,45 @@ a:hover {
 }
 
 /*media queries here*/
+
+
+@media screen and (min-width: 300px){
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	min-width: 270px;
+	min-height: 270px;
+	margin-top: 100px;
+	position: fixed;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

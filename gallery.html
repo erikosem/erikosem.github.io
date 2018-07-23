@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gallery</title>
 	<!-- <link rel="stylesheet" href="styles/home.css"> -->
 	<link rel="stylesheet" href="styles/gallery.css">
@@ -15,9 +16,13 @@
 			</div>
 
 			<button class="mobile-menu">
-	      		<span>menu</span>
+	      		<span id="showmenu">menu</span>
 	      	</button>
 
+
+		<!-- <div id="thisSidemenu" class="sidenav"> -->
+			<!-- <a href="javascript:void(0)" class="closebtn" onlcick="closeNav()">&times;</a> -->
+			<div class="menu overlay" style="display: none">
 			<nav class="navigation">
 				<ul>
 					<li><a href="gallery.html">Gallery</a></li>
@@ -25,14 +30,26 @@
 					<li><a href="about.html">About</a></li>
 				</ul>
 			</nav>
+		<!-- </div>  -->
+		<!-- end of menu -->
+
 		</header>
 
 		<div class="gallery-content">
-			<img src="images/home-hero.png" alt="film photography of floral arrangement">
-			<img src="images/open.png" alt="">
-			<img src="images/upside-down.png" alt="">
-			<img src="images/this.png" alt="">
-			<img src="images/still.png" alt="">
+			<img src="images/home-hero.png" alt="film photography of floral arrangement" class="image image01">
+			<img src="images/open.png" alt="" class="image image02">
+				<p class="text first-text">art direction and such. pancakes and strawberry sauce.</p>
+			<img src="images/upside-down.png" alt="" class="image image03">
+			<img src="images/this.png" alt="" class="image image04">
+			<img src="images/still.png" alt="" class="image image05">
+			<img src="images/cactus.JPG" alt="" class="image image06">
+			<p class="text">hello hello i am a cactus i am very spiky and do not like water the essence of life</p>
+			<img src="images/cat01.JPG" alt="" class="image image07">
+			<img src="images/cat02.JPG" alt="" class="image image08">
+			<img src="images/cat03.JPG" alt="" class="image image09">
+				<p class="text">meow meow i am a cat</p>
+			<img src="images/overview.JPG" alt="" class="image image10">
+			<img src="images/windows.JPG" alt="" class="image image11">
 		</div>
 
 	</div>
@@ -40,6 +57,12 @@
 	<footer>
 		<p>&copy;Eriko Semitsu 2018.</p>
 	</footer>
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
 	
 </body>
 </html>

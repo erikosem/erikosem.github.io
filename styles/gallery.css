@@ -22,14 +22,22 @@ footer {
 
 footer p {
 	color: black;
-	font-size: 0.85em;
+	font-size: 0.75em;
 }
 
-img {
+/*img {
 	width: 90%;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 50px;
+}*/
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  /*margin-bottom: 70px;*/
 }
 
 a {
@@ -42,6 +50,11 @@ a:hover {
 	color: #b1744a;
 }
 
+.text {
+	font-size: 0.7em;
+	text-align: center;
+}
+
 header {
 	display: flex;
 	flex-direction: row;
@@ -52,11 +65,15 @@ header {
 .navigation ul {
 	list-style: none;
 	display: flex;
-	flex-direction: row;
+	/*flex-direction: row;*/
+	flex-direction: column;
 	justify-content: space-between;
 	width: 300px;
-	display: none;
+	padding: 0 15px 0 15px;
+	margin: 0 auto;
+	/*display: none;*/
 }
+
 
 button {
 	border: none;
@@ -77,4 +94,208 @@ button {
 .name-logo {
 	margin-left: 37px;
 }
+
+/*menu styling*/
+
+/*#menu li {
+	background-color: orange;
+}*/
+
+.menu {
+	/*background-color: orange;*/
+	z-index: 10;
+	display: block;
+	left: 0;
+	margin-top: 100px;
+	margin-left: -300px;
+	height: 100%;
+	width: 100%;
+	/*background-color: rgba(0,0,0, 0.2);*/
+}
+
+#overlay {
+	position: fixed;
+	width: 100%;
+	height: 100;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0, 0.2);
+}
+
+.mobile-menu {
+	z-index: 15;
+	top: 0;
+	/*position: absolute;*/
+}
+
+
+
+/*.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	background-color: grey;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sidenav a {
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: grey;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+}*/
+
+
+/* gallery grid */
+
+
+.gallery-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 35px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+/* media queries here */
+
+@media screen and (min-width: 320px){
+
+	.gallery-content img {
+		/*max-width: 320px;*/
+	}
+}
+
+@media screen and (min-width: 600px) {
+
+.gallery-content {
+  display: grid;
+  /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) ;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.image01 {
+  grid-column: auto / span 2;
+  grid-row: 200px;
+  /*grid-row: auto / span 3;*/
+}
+
+.image01 img {
+  height: 100%;
+  /*width: 100%;*/
+  object-fit: cover;
+}
+
+.image02{
+  grid-row: 1fr;
+  height: 350px;
+  object-fit: cover;
+}
+
+.first-text p {
+	margin-left: 100px;
+}
+
+
+
+.image03 {
+   /*grid-row: auto / span 1;*/
+   grid-column: auto / span 3;
+    grid-row: auto / span 3;
+     /*width: 90%;*/
+}
+
+.image04 {
+  grid-column: auto / span 2;
+  /*object-fit: cover;*/
+}
+
+.image05 {
+	height: 500px;
+	object-fit: cover;
+	margin-top: 122px;
+}
+
+.image06 {
+	grid-column: auto / span 2;
+}
+
+.image07 {
+	grid-column: auto/ span 2;
+}
+
+.image08 {
+	grid-row: auto;
+}
+
+.image09 {
+	grid-row: auto / span 1;
+}
+
+.image10 {
+	grid-column: auto / span 2;
+	grid-row: auto / span 2;
+}
+
+.image11 {
+  grid-column: auto / span 3;
+  object-fit: cover;
+}
+
+.text {
+  margin-left: 25px;
+  text-align: left;
+}
+
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+.text {
+	margin-left: 60px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -15,17 +15,19 @@
 				<p><a href="index.html">Eriko.</a></p>
 			</div>
 
-			<button class="mobile-menu">
-	      		<span>menu</span>
+			<button class="mobile-menu is-active">
+	      		<span onclick="openNav()">menu</span>
 	      	</button>
-
-			<nav class="navigation">
-				<ul>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="thoughts.html">Thoughts</a></li>
-					<li><a href="about.html">About</a></li>
-				</ul>
-			</nav>
+			
+			<div class="navbar">
+				<nav id="active-nav" class="navigation is-active">
+					<ul>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="thoughts.html">Thoughts</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<div class="intro">
@@ -63,6 +65,11 @@
 	</footer>
 
 	</div><!-- end of wrapper -->
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 
 
 	
