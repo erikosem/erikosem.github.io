@@ -15,12 +15,12 @@
 				<p><a href="index.html">Eriko.</a></p>
 			</div>
 
-			<button class="mobile-menu is-active">
-	      		<span onclick="openNav()">menu</span>
+			<button class="mobile-menu">
+	      		<span id="showmenu">menu</span>
 	      	</button>
 			
-			<div class="navbar">
-				<nav id="active-nav" class="navigation is-active">
+			<div class="menu overlay" style="display:none">
+				<nav class="navigation">
 					<ul>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="thoughts.html">Thoughts</a></li>
@@ -28,6 +28,7 @@
 					</ul>
 				</nav>
 			</div>
+			<!-- end of menu -->
 		</header>
 
 		<div class="intro">
@@ -38,13 +39,13 @@
 
 		<img src="images/home-hero.png" alt="film photography of floral arrangement">
 
-<!-- 		<div class="japanese-intro">
+		<div class="japanese-intro">
 			<p>瀬</p>
 			<p>光</p>
 			<p>恵</p>
 			<p>里</p>
 			<p>子</p>
-		</div> -->
+		</div>
 		
 
 		<h3><span>Instagram</span></h3>
@@ -66,10 +67,11 @@
 
 	</div><!-- end of wrapper -->
 
-<script
+  <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
 
 
 	

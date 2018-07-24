@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Personal thoughts</title>
 	<link rel="stylesheet" href="styles/thoughts.css">
 </head>
@@ -14,21 +15,24 @@
 			</div>
 
 			<button class="mobile-menu">
-	      		<span>menu</span>
+	      		<span id="showmenu">menu</span>
 	      	</button>
 
-			<nav class="navigation">
-				<ul>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="thoughts.html">Thoughts</a></li>
-					<li><a href="about.html">About</a></li>
-				</ul>
-			</nav>
+			<div class="menu overlay" style="display: none">
+				<nav class="navigation">
+					<ul>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="thoughts.html">Thoughts</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- end of menu -->
 		</header>
 
 		<div class="think thought-one">
 			<h1>thought number 1</h1>
-			<p>i love flowers and frenchies lol ok bye</p>
+			<p>Film, Dark moody rather than Bright exposed. Blurry, not clear so that you can let the viewer imagine more from there.Film, Dark moody rather than Bright exposed. Blurry, not clear so that you can let the viewer imagine more from there.Film, Dark moody rather than Bright exposed. Blurry, not clear so that you can let the viewer imagine more from there.</p>
 		</div>
 
 		<div class="think thought-two">
@@ -41,14 +45,20 @@
 			<p>Film, Dark moody rather than Bright exposed. Blurry, not clear so that you can let the viewer imagine more from there.Film, Dark moody rather than Bright exposed. Blurry, not clear so that you can let the viewer imagine more from there.Film, Dark moody rather than Bright exposed. Blurry, not clear so that you can let the viewer imagine more from there.</p>
 		</div>
 
-	</div>
-	
-</body>
-
-<footer>
+	<footer>
 		<p>&copy;Eriko Semitsu 2018.</p>
 	</footer>
 
+	</div>
+	<!-- end of wrapper -->
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+	
+</body>
 </html>
 
 
