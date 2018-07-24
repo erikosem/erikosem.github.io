@@ -15,6 +15,13 @@ body {
 	background-color: #f9ede0;
 }
 
+header {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
 footer {
 	/*margin-bottom: 30px;*/
 	text-align: center;
@@ -40,12 +47,6 @@ h1 {
 	font-size: 1.2em;
 }
 
-header {
-	display: flex;
-	flex-direction: row;
-	margin-top: 15px;
-	margin-bottom: 20px;
-}
 
 .navigation ul {
 	list-style: none;
@@ -151,6 +152,8 @@ button {
 		margin-top: 15px;
 		float: right;
 		margin-right: 37px;
+		justify-content: space-between;
+		width: 300px;
 	}
 }
 

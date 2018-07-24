@@ -162,10 +162,11 @@ button {
 
 .intro p {
 	font-size: 1.5em;
+	color: black;
 	/*color: pink;*/
 	/*color: #a86404;*/
-	color: #ecd0b3;
-	text-shadow: black 1px 1px;
+	/*color: #ecd0b3;*/
+	/*text-shadow: black 1px 1px;*/
 
 }
 
@@ -234,7 +235,7 @@ button {
 	}
 
  	.intro {
- 		margin-top: 35%;
+ 		margin-top: 45%;
  	}
 
  	h3 {
@@ -259,7 +260,8 @@ button {
  	}
 
  	.intro {
- 		margin-top: 26%;
+ 		margin-top: 33%;
+ 		margin-left: 300px;
  	}
 
  	.japanese-intro {
@@ -272,6 +274,10 @@ button {
 
  	.insta {
  		justify-content: auto;
+ 	}
+
+ 	h3 {
+ 		margin-top: 15%;
  	}
  
  }
