@@ -126,6 +126,7 @@ a:hover {
 
 	.name {
 		width: 49%;
+		height: 400px;
 	}
 
 	.first-name{
@@ -150,6 +151,7 @@ a:hover {
 
 	.name {
 		width: 27%;
+		height: 450px;
 	}
 
 	.first-name{

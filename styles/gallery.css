@@ -35,7 +35,7 @@ img {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   /*margin-bottom: 70px;*/
 }
 
@@ -52,6 +52,12 @@ a:hover {
 .text {
 	font-size: 0.7em;
 	text-align: center;
+}
+
+.title {
+	font-size: 1.3em;
+	border: black 1px solid;
+	padding: 15px;
 }
 
 header {
@@ -153,8 +159,14 @@ button {
 }
 
 @media screen and (min-width: 500px){
+
 	.mobile-menu {
 		margin-left: 70%;
+	}
+
+	.image11 {
+		width: 500px;
+		margin: 0;
 	}
 }
 
@@ -205,10 +217,25 @@ button {
   object-fit: cover;
 }
 
-.image02{
+.image02 {
   grid-row: 1fr;
-  height: 350px;
+  /*height: 350px;*/
+  height: 100%;
   object-fit: cover;
+}
+
+.image03 {
+	width: 500px;
+	margin: 0 auto;
+
+}
+
+.image04 {
+	width: 400px;
+}
+
+.image06 {
+	width: 380px;
 }
 
 .first-text p {
@@ -240,7 +267,11 @@ button {
 }
 
 .image07 {
-	grid-column: auto/ span 2;
+	/*grid-column: auto/ span 2;*/
+	/*grid-column: auto/span 1;*/
+	width: 100%;
+	height: 100%;
+	margin: 0;
 }
 
 .image08 {
@@ -249,6 +280,9 @@ button {
 
 .image09 {
 	grid-row: auto / span 1;
+/*	width: 600px;
+	height: 350px;*/
+
 }
 
 .image10 {
@@ -262,9 +296,102 @@ button {
   object-fit: cover;
 }
 
+.image12 {
+	grid-column: auto / span 2;
+}
+
+.image13 {
+	margin-top: 200px;
+}
+
+.image14 {
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.image17 {
+	object-fit: cover;
+	height: 300px;
+}
+
+.image18 {
+	object-fit: cover;
+	height: 300px;
+}
+
+.image19 {
+	grid-column: auto / span 2;
+	width: 70%;
+}
+
+.image22 {
+	grid-column: auto / span 1;
+	height: 500px;
+	object-fit: cover;
+	/*margin-left: 235px;*/
+	/*width: 70%;*/
+	/*width: 500px;*/
+}
+
+.image23 {
+	height: 500px;
+/*	width: 300px;*/
+	grid-column: auto / span 3;
+	object-fit: cover;
+	float: left;
+	margin: 0;
+}
+
+.image24 {
+	grid-column: auto / span 1;
+	float: right;
+	margin: 0;
+}
+
+.image25 {
+	grid-column: auto / span 2;
+	height: 500px;
+	width: 630px;
+	object-fit: cover;
+}
+
+.image26 {
+	grid-column: auto / span 2;
+
+}
+
+.image29 {
+	grid-column: auto / span 2;
+}
+
+.image30 {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}
+
+.image31 {
+	grid-column: auto / span 2;
+	width: 640px;
+	height: 300px;
+	object-fit: cover;
+	margin: 0;
+}
+
 .text {
-  margin-left: 25px;
+  /*margin-left: 25px;*/
   text-align: left;
+  margin: 0;
+  /*margin-right: 100px;*/
+  width: 300px;
+}
+
+.title {
+	grid-column: auto / span 3;
+	font-size: 2.1em;
+	border: black 1px solid;
+	padding: 15px;
 }
 
 
@@ -283,7 +410,7 @@ button {
 }
 
 .text {
-	margin-left: 60px;
+	/*margin-left: 60px;*/
 }
 
 .image07 {
@@ -295,7 +422,7 @@ button {
 	grid-column: auto / span 2;
 	grid-row: auto / span 2;
 	width: 400px;
-	margin-left: 500px;
+	/*margin-left: 500px;*/
 }
 
 }
