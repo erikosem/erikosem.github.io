@@ -43,7 +43,7 @@ img {
 /*temporary insta trial*/
 
 h3 { 
-	width: 50%; 
+	width: 83%; 
 /*text-align:center; */
 	border-bottom: 1px solid #000; 
 	line-height:0.1em; 
@@ -226,6 +226,11 @@ button {
  	margin-left: 15%;
  }
 
+ h3 {
+ 	margin-left: 200px;
+ 	margin-top: 20%;
+ }
+
  }
 
  @media screen and (min-width: 850px){
@@ -235,7 +240,8 @@ button {
 	}
 
  	.intro {
- 		margin-top: 45%;
+ 		margin-top: 48%;
+ 		margin-left: 165px;
  	}
 
  	h3 {
@@ -261,7 +267,7 @@ button {
 
  	.intro {
  		margin-top: 33%;
- 		margin-left: 300px;
+ 		margin-left: 340px;
  	}
 
  	.japanese-intro {
@@ -278,6 +284,7 @@ button {
 
  	h3 {
  		margin-top: 15%;
+ 		width: 860px;
  	}
  
  }
