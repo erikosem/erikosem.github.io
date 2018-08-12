@@ -189,12 +189,15 @@ a:hover {
 	.first-name{
 		font-size: 2.3em;
 		font-weight: 700;
+		margin-left: 30px;
+		margin-top: 30px;
 	}
 
 	.last-name{
 		font-size: 2.3em;
 		font-weight: 700;
 		margin-top: 0;
+		margin-right: 30px;
 	}
 
 	.enter a {
