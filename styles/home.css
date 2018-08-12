@@ -57,13 +57,15 @@ h3 span {
 }
 
 .insta img {
-	max-width: 180px;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
 	margin: 0 auto;
 }
 
 .insta {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 15px;
 
 }
@@ -209,6 +211,7 @@ button {
 		float: right;
 		margin-right: 37px;
 	}
+
 }
 
  @media screen and (min-width: 800px){
@@ -230,6 +233,13 @@ button {
  	margin-left: 200px;
  	margin-top: 20%;
  }
+
+ .insta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+
+}
 
  }
 
@@ -280,7 +290,11 @@ button {
 
  	.insta {
  		justify-content: auto;
+ 		display: grid;
+  		grid-template-columns: 1fr 1fr 1fr;
+  		grid-gap: 15px;
  	}
+
 
  	h3 {
  		margin-top: 15%;

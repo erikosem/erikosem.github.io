@@ -145,27 +145,69 @@ a:hover {
 }
 
 @media screen and (min-width: 1000px){
+
+	body {
+		background-image: none;
+	}
+
 	.wrapper{
-		margin-top: 20px;
+		/*margin-top: 20px;*/
+		position: relative;
+	}
+
+	.desktop-image {
+		background-image: url("../images/door.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		/*background-attachment: fixed;*/
+		margin: 0 auto;
+		width: 300px;
+		height: 500px;
+		/*margin-top: 120px;*/
+	}
+
+	.content {
+		float: right;
+		margin-right: 230px;
+		z-index: 30;
+		width: 45%;
 	}
 
 	.name {
-		width: 27%;
+		margin-top: 25px;
 		height: 450px;
+		background-color: rgba(197, 184, 165, 0.6);
+		z-index: -20;
+	}
+
+	.name p {
+		color: black;
+		text-shadow: none;
+
 	}
 
 	.first-name{
-		font-size: 2.2em;
+		font-size: 2.3em;
 		font-weight: 700;
 	}
 
 	.last-name{
-		font-size: 2.2em;
+		font-size: 2.3em;
 		font-weight: 700;
+		margin-top: 0;
+	}
+
+	.enter a {
+		color: black;
 	}
 
 	footer {
 		padding-top: 10px;
+	}
+
+	footer p {
+		color: black;
+		padding-top: 0;
 	}
 }
 

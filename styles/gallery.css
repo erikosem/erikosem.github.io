@@ -392,10 +392,10 @@ button {
 
 .title {
 	grid-column: auto / span 3;
-	font-size: 2.1em;
+	font-size: 1em;
 	border: black 1px solid;
 	padding: 15px;
-	margin: 10px 40px 10px 40px;
+	margin: 10px 190px 10px 190px;
 }
 
 .film-collection {
