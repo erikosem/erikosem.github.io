@@ -230,7 +230,7 @@ button {
  }
 
  h3 {
- 	margin-left: 200px;
+ 	margin-left: 50px;
  	margin-top: 20%;
  }
 
@@ -238,6 +238,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
+  justify-content: auto;
 
 }
 
@@ -256,6 +257,7 @@ button {
 
  	h3 {
  		margin-top: 150px;
+ 		margin-left: 60px;
  	}
 
  }
@@ -299,6 +301,7 @@ button {
  	h3 {
  		margin-top: 15%;
  		width: 860px;
+ 		margin-left: 190px;
  	}
  
  }
