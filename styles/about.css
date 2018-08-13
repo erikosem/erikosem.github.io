@@ -13,6 +13,13 @@ body {
 	font-family: 'IBM Plex Mono', monospace;
 	margin: 0;
 	background-color: #f9ede0;
+	-webkit-animation: fadein 3s;
+  	-moz-animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 footer {
