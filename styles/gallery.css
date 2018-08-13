@@ -210,6 +210,10 @@ button {
  	margin-right: 22px;
  }
 
+ img {
+ 	object-fit: cover;
+ }
+
 
 .gallery-content {
   display: grid;
